@@ -29,9 +29,9 @@ The deployment pipeline is set up using Azure Release Pipeline to deploy the Doc
 ### Screenshots
 
 1. **Release Pipeline Overview:**
-   ![Release Pipeline Overview](screenshots/release_pipeline_overview.png)
+   ![Release Pipeline Overview](screenshots/release_pipeline_overview.PNG)
 
 2. **Task Configuration:**
-   ![Task Configuration](screenshots/task_configuration.png)
+   ![Task Configuration](screenshots/task_configuration.PNG)
 
 These steps ensure that whenever the release pipeline is triggered, the Docker image is automatically deployed to the IIS Website.
