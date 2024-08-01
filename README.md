@@ -10,6 +10,9 @@ The build pipeline is defined in the [`azure-pipelines-2.yml`](/azure-pipelines-
    - **Jobs**: The Build job uses the latest Ubuntu VM image from a specified pool (mypool).
    - **Steps**: The Docker@2 task builds and pushes the Docker image to the Docker Hub repository seyma1km/test-azure with the tag latest.
 
+**Build Pipeline Overview:**
+   ![Build Pipeline Overview](screenshots/build_pipeline.PNG)
+
 ## Deployment Pipeline
 
 The deployment pipeline is set up using Azure Release Pipeline to deploy the Docker image to an IIS Website. Here’s a simple explanation of the process along with some screenshots for clarity.
@@ -29,9 +32,9 @@ The deployment pipeline is set up using Azure Release Pipeline to deploy the Doc
 ### Screenshots
 
 1. **Release Pipeline Overview:**
-   ![Release Pipeline Overview](screenshots/release_pipeline_overview.png)
+   ![Release Pipeline Overview](screenshots/release_pipeline_overview.PNG)
 
 2. **Task Configuration:**
-   ![Task Configuration](screenshots/task_configuration.png)
+   ![Task Configuration](screenshots/task_configuration.PNG)
 
 These steps ensure that whenever the release pipeline is triggered, the Docker image is automatically deployed to the IIS Website.
